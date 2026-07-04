@@ -1,0 +1,29 @@
+.side-bar{
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0px;
+  width: 70px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(217, 217, 217);
+  z-index: 20;
+}
+
+.side-butt{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 70px;
+  height: 70px;
+}
+.side-butt:hover{
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+.side-img{
+  width: 17px;
+}
+.side-txt{
+  font-size: 10px;
+}

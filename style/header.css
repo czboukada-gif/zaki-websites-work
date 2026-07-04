@@ -1,0 +1,210 @@
+
+    .header{
+      background-color: rgb(255, 255, 255);
+      height: 55px;
+      margin-bottom: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(217, 217, 217);
+      z-index: 10;
+      }
+    .left{
+      display: flex;
+      }
+      .lines{
+        height: 24px;
+        margin-left: 24px;
+        margin-right: 20px ; 
+        cursor: pointer;
+      }
+      .yt-logo{
+        height: 20px;
+        cursor: pointer;
+      }
+    .center{
+
+      margin-left: 70px;
+      margin-right: 35px;
+      align-items: center;
+      display: flex;
+      }
+      .search-bar{
+        font-size: 14px;
+        height: 33px;
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(202, 202, 202);
+        padding-left: 20px;
+        width: 300;
+        flex: 1;
+        border-radius: 2px;
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+      }
+      .serch{
+        height: 20px;
+      }
+      .butt1 .hover-search {
+        position: absolute;
+        background-color: rgb(98, 98, 98);
+        color: white;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        bottom: -30px;
+        opacity: 0;
+        transition: opacity 0.2s;
+        pointer-events: none;
+      }
+      .butt1:hover .hover-search{
+        opacity: 1;
+        
+      }
+      .voice{
+        height: 20px;
+        margin-top: 3px;
+        margin-left: 1px;
+      }
+      .butt1{
+        height: 36px;
+        width: 50px;
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(202, 202, 202);
+        cursor: pointer;
+        border-radius: 2px;
+        margin-left: -2px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .butt2{
+        height: 32px;
+        border-radius: 50px;
+        margin-left: 20px;
+        border: none;
+        background-color: rgb(243, 243, 243);
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .right{
+      width: 150px;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 25px;
+      flex-shrink: 0;
+      align-items: center;
+      height: 30px;
+      
+      }
+    .div1{
+      height: 25px;
+      cursor: pointer;
+    }
+    .div2{
+      height: 25px;
+      cursor: pointer;
+    }
+    .div2-container{
+      display: flex;
+      justify-content: center;
+    }
+    .div4{
+      height: 25px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    .div3{
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+    }
+    .notif-ico{
+      height: 25px;
+      cursor: pointer;
+    }
+    .num3{
+      position: absolute;
+      right:-1px;
+      top:0 ;
+      background-color: rgb(208, 0, 0);
+      color: white;
+      border-radius: 50px;
+      padding-left:4px;
+      padding-right: 4px;
+      padding-top: 1px;
+      padding-bottom: px;
+      font-size: 9px;
+      font-family: arial;
+    }
+
+    .butt2 .hover-search ,
+    .div3 .notific-hover {
+      position: absolute;
+      background-color: rgb(98, 98, 98);
+      color: white;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      bottom: -30px;
+      opacity: 0;
+      transition: opacity 0.2s;
+      pointer-events: none;
+      white-space: nowrap;
+      font-family: arial;
+    }
+    .butt2:hover .hover-search
+    ,.div3:hover .notific-hover
+    , .div1-container:hover 
+     .create-hover{
+      opacity: 1;
+    }
+
+    .div2-container 
+    .yt-app-hover
+    , .div1-container 
+    .create-hover{
+      position: absolute;
+      background-color: rgb(98, 98, 98);
+      color: white;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      bottom: -15px;
+      opacity: 0;
+      transition: opacity 0.2s;
+      pointer-events: none;
+      white-space: nowrap;
+      font-family: arial;
+    }
+    .div2-container:hover 
+    .yt-app-hover
+    {
+      opacity: 1;
+    }
+    .div1-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
